@@ -12,3 +12,10 @@ $ sudo adduser `id -un` libvirt
 $ sudo adduser `id -un` libvirt-qemu
 $ sudo adduser `id -un` kvm
 ```
+
+Dockerコンテナを利用する場合は、以下のコマンドを実行するだけで環境が整います。
+
+```console
+# dockerは起動していることを前提とします
+sh run_docker.sh
+```
